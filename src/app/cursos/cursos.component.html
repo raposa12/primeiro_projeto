@@ -1,0 +1,12 @@
+<p>
+  Lista de cursos do portal {{ nomePortal }}
+</p>
+<app-curso-detalhes></app-curso-detalhes>
+
+<ul>
+  <!--como se fosse uma id ou classe a ser get-->
+  <li *ngFor="let curso of cursos">
+    <!--aqui ele chamou a funçao curso para aqui-->
+    {{ curso }}
+  </li>
+</ul>

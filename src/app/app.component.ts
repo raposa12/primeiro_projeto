@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+//Aqui onde imprimi a msg pro browser
 export class AppComponent {
-  title = 'primeiro-projeto';
+  title = 'Olá mundo';
 }
